@@ -59,6 +59,7 @@ $(document).ready(function () {
     // the closing </ul> tag
     // because makeRow is called from a within a for loop, this assembled
     // element will be appended for each city as loop counter increments
+    
     $(".history").append(li);
   }
 
@@ -276,4 +277,6 @@ $(document).ready(function () {
     // so each time through the loop, make new row for another city name
     makeRow(history[i]);
   }
+
+  
 });
